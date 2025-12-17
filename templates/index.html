@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="text-center">
+    <h1>Bienvenidos</h1>
+    <p class="lead">Sistema de reservas de mesas</p>
+    <div class="info-wrapper mt-3">
+        <div class="info-text d-inline-block text-start me-4">
+            <h3>¿Cómo hacer una reserva?🤔</h3>
+            <ol>
+                <li>Dirígete a la sección de "Reservas"</li>
+                <li>Llena el formulario con tus datos personales</li>
+                <li>Envía el formulario y espera la confirmación de tu reserva.</li>
+            </ol>
+    <img src="{% static 'img/Comida.png' %}" class="info-banner" alt="Banner" height="500" width="auto">
+
+</div>
+{% endblock %}
